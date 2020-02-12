@@ -1,4 +1,5 @@
 ﻿using System;
+using tabuleiro;
 
 namespace Partida_de_Xadrez
 {
@@ -6,7 +7,7 @@ namespace Partida_de_Xadrez
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Tabuleiro tab = new Tabuleiro(8, 8);
         }
     }
 }
