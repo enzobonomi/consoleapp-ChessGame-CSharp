@@ -18,6 +18,10 @@ namespace tabuleiro
             this.Tabuleiro = tabuleiro;
             this.QuantidadeDeMovimentos = 0;
         }
+        public void incrementarQuantidadeDeMovimentos()
+        {
+            QuantidadeDeMovimentos++;
+        }
 
        
     }
