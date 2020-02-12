@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xadrez;
 
 namespace tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
         public Posicao Posicao {get; set;}
         public CorDaPeca Cor { get; set; }
@@ -23,6 +24,8 @@ namespace tabuleiro
             QuantidadeDeMovimentos++;
         }
 
+        public abstract bool[,] movimentosPossiveis();
+        
        
     }
 }
