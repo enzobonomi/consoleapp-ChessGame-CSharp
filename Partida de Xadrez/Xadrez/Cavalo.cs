@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+using tabuleiro;
 
-namespace Partida_de_Xadrez.Xadrez
+
+namespace Xadrez
 {
-    class Cavalo
+    class Cavalo : Peca
     {
+        public Cavalo(Tabuleiro tabuleiro, CorDaPeca cor) : base(tabuleiro, cor)
+        {
+
+        }
+        public override string ToString()
+        {
+            return "C";
+        }
     }
 }
