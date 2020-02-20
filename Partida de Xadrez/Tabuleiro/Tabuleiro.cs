@@ -68,7 +68,7 @@ namespace tabuleiro
         {
             if (!posicaoValida(posicao))
             {
-                throw new TabuleiroExeption("Posição Inválida!/Invalid Position!");
+                throw new TabuleiroExeption("Posição Inválida!");
             }
         }
 
